@@ -1,4 +1,5 @@
-FROM postgres:11
+ARG postgres_version=11
+FROM postgres:$postgres_version
   
 MAINTAINER Erwan SEITE <wanix(dot)fr(at)gmail(dot)com>
 
